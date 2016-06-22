@@ -8,3 +8,8 @@ based on their purpose.
 
 Code can be used to understand the suspend/resume function in H3 in particular
 and write a mainline implementataion.
+
+You need to get arisc_sun8iw7p1.bin yourself as it is not redistributable.
+
+$ md5sum arisc_sun8iw7p1.bin:
+fd227bfaf8a9f8a59bbd6a20d563091b  arisc_sun8iw7p1.bin
