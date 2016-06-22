@@ -1,0 +1,10 @@
+To ease reverse engineering of the firmware for H3, you can use script that
+takes arisc_sun8iw7p1.bin file (available in the lichee h3 sdk from Draco) and
+produces readable pseudocode. Pseudocode is split into cross-referenced
+functions and basic blocks, code within basic blocks is emulated and register
+assignments use evaluated values if known. Memory and register addresses are
+renamed based on the map of known locations. Most of the functions are named
+based on their purpose.
+
+Code can be used to understand the suspend/resume function in H3 in particular
+and write a mainline implementataion.
